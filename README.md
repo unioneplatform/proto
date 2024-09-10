@@ -31,4 +31,4 @@ Generated SDKs from updates to this repository:
 
 * TBD
 
-The generated OpenAPI documentation can be found [here](./generated/index.html).
+The OpenAPI documentation files are generated in this [repo](https://github.com/unioneplatform/api-docs).
