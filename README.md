@@ -1,3 +1,5 @@
+[![main](https://github.com/unioneplatform/proto/actions/workflows/main.yml/badge.svg)](https://github.com/unioneplatform/proto/actions/workflows/main.yml)
+
 **NOTE: Work-in-progress**
 
 `proto` is the [protobuf](https://developers.google.com/protocol-buffers) definition of the Uni-one Platform API.
