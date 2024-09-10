@@ -29,6 +29,6 @@ $ ./build.sh
 
 Generated SDKs from updates to this repository:
 
-* TBD
+* [go-sdk](https://github.com/unioneplatform/go-sdk)
 
 The OpenAPI documentation files are generated in this [repo](https://github.com/unioneplatform/api-docs).
