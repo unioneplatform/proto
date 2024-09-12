@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package proto.iam.v1;
+
+import "google/api/annotations.proto";
+import "protoc-gen-openapiv2/options/annotations.proto";
+
+option go_package = "github.com/alphauslabs/blueapi/iam";
+option java_package = "cloud.alphaus.api.iam";
+option java_outer_classname = "IamProto";
+
+// IAM service definition.
+service Iam {
+  option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_tag) = {
+    description: "(ALPHA) Uni-one Platform IAM API. Base URL: https://api.unioneplatform.com"
+    external_docs: {
+      url: "https://github.com/unioneplatform/proto/tree/main/iam/v1";
+      description: "Service definition";
+    }
+  };
+
+  rpc WhoAmI(WhoAmIRequest) returns (WhoAmIResponse) {
+    option (google.api.http) = {
+      get: "/iam/v1/whoami"
+    };
+  }
+}
+
+// Request message for the WhoAmI rpc.
+message WhoAmIRequest {}
+
+// Response message for the WhoAmI rpc.
+message WhoAmIResponse {}
