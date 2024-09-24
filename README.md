@@ -1,7 +1,5 @@
 [![main](https://github.com/unioneplatform/proto/actions/workflows/main.yml/badge.svg)](https://github.com/unioneplatform/proto/actions/workflows/main.yml)
 
-**NOTE: Work-in-progress**
-
 `proto` is the [protobuf](https://developers.google.com/protocol-buffers) definition of the Uni-One Platform API.
 
 The folder `google/*` was cloned from [github.com/googleapis/api-common-protos](https://github.com/googleapis/api-common-protos). The folder `protoc-gen-openapiv2/*` was cloned from [github.com/grpc-ecosystem/grpc-gateway/protoc-gen-openapiv2](https://github.com/grpc-ecosystem/grpc-gateway/tree/master/protoc-gen-openapiv2).
